@@ -6,7 +6,7 @@ CREATE TABLE NewsLetterSchools
     town VARCHAR(255) NOT NULL, 
 
 
-)
+);
 
 DROP TABLE IF EXISTS Newsletters; 
 CREATE TABLE Newsletters
@@ -19,4 +19,4 @@ CREATE TABLE Newsletters
         ON DELETE RESTRICT
     PRIMARY KEY (schoolID, nlID)
 
-)
+);
